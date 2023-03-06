@@ -22,7 +22,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Navbar />
-      <Router basename='/portfolio'>
+      <Router basename='/portfolio-chakra'>
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<CV />} />
